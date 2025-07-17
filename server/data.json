@@ -1,0 +1,94 @@
+{
+   "products": [
+      {
+         "id": "1",
+         "name": "WW90T754ABT, Pralka QuickDrive™, 9 kg, biała",
+         "capacity": { "kg": 9 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwertowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "A",
+         "price": 3199,
+         "picture": "/src/assets/test.jpeg"
+      },
+      {
+         "id": "2",
+         "name": "WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała",
+         "capacity": { "kg": 9 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwertowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "A",
+         "price": 3199,
+         "picture": "/src/assets/test.jpeg"
+      },
+      {
+         "id": "3",
+         "name": "WW90T654DLH, Pralka EcoBubble™, 9 kg, biała",
+         "capacity": { "kg": 9 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwertowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "A",
+         "price": 3199,
+         "picture": "/src/assets/test.jpeg"
+      },
+      {
+         "id": "4",
+         "name": "WW90T754ABT, Pralka QuickDrive™, 9 kg, biała",
+         "capacity": { "kg": 9 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwertowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "A",
+         "price": 3199,
+         "picture": "/src/assets/test.jpeg"
+      },
+      {
+         "id": "5",
+         "name": "WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała",
+         "capacity": { "kg": 9 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwertowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "A",
+         "price": 3199,
+         "picture": "/src/assets/test.jpeg"
+      },
+      {
+         "id": "6",
+         "name": "WW90T654DLH, Pralka EcoBubble™, 8 kg, biała",
+         "capacity": { "kg": 9 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwertowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "A",
+         "price": 3199,
+         "picture": "/src/assets/test.jpeg"
+      }
+   ]
+}

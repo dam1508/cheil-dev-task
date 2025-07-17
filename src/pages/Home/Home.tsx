@@ -1,5 +1,7 @@
-const Home = () => {
-   return <h1>Wybierz urzadzenie</h1>;
+import type React from "react";
+
+const Home = ({ children }: { children: React.ReactNode }) => {
+   return <section>{children}</section>;
 };
 
 export default Home;
