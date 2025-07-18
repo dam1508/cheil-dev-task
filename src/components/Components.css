@@ -1,4 +1,44 @@
+.product-list {
+   display: flex;
+   flex-wrap: wrap;
+
+   gap: 16px;
+}
 .product-card {
+   font-family: "SamsungOne";
    display: flex;
    flex-direction: column;
+   align-items: start;
+
+   width: 340px;
+   height: 600px;
+   border-radius: 20px;
+   padding: 25px 24px;
+
+   background-color: var(--card-bg-color);
+}
+
+.product-picture {
+   height: 200px;
+
+   align-self: center;
+}
+
+.product-name {
+   font-family: "SamsungOne Bold";
+   font-size: 18px;
+}
+
+.product-info {
+   color: var(--text-bright-color);
+
+   font-size: 12px;
+   line-height: 1.5em;
+
+   display: inline;
+}
+
+.product-info .info-value {
+   color: var(--text-default-color);
+   font-family: "SamsungOne Bold";
 }

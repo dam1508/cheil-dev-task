@@ -12,7 +12,7 @@ export type ProductType = {
 };
 const ProductList = ({ products }: { products: ProductType[] }) => {
    return (
-      <div>
+      <div className="product-list">
          {products.map(product => (
             <ProductCard
                key={product.id}

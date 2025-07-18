@@ -13,7 +13,7 @@
          ],
          "energyClass": "A",
          "price": 3199,
-         "picture": "/src/assets/test.jpeg"
+         "picture": "/src/assets/wash1.png"
       },
       {
          "id": "2",
@@ -28,7 +28,7 @@
          ],
          "energyClass": "A",
          "price": 3199,
-         "picture": "/src/assets/test.jpeg"
+         "picture": "/src/assets/wash2.png"
       },
       {
          "id": "3",
@@ -43,7 +43,7 @@
          ],
          "energyClass": "A",
          "price": 3199,
-         "picture": "/src/assets/test.jpeg"
+         "picture": "/src/assets/wash2.png"
       },
       {
          "id": "4",
@@ -58,7 +58,7 @@
          ],
          "energyClass": "A",
          "price": 3199,
-         "picture": "/src/assets/test.jpeg"
+         "picture": "/src/assets/wash1.png"
       },
       {
          "id": "5",
@@ -73,7 +73,7 @@
          ],
          "energyClass": "A",
          "price": 3199,
-         "picture": "/src/assets/test.jpeg"
+         "picture": "/src/assets/wash2.png"
       },
       {
          "id": "6",
@@ -88,7 +88,7 @@
          ],
          "energyClass": "A",
          "price": 3199,
-         "picture": "/src/assets/test.jpeg"
+         "picture": "/src/assets/wash2.png"
       }
    ]
 }

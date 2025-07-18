@@ -1,0 +1,13 @@
+.energy-class {
+   --energy-good: #009949;
+
+   background-color: var(--energy-good);
+   color: var(--text-white-color);
+
+   width: 40px;
+   height: 18px;
+   border-radius: 1px;
+}
+
+.energy-class-arrow {
+}
