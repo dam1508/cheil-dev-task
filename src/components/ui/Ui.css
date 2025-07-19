@@ -1,13 +1,31 @@
 .energy-class {
    --energy-good: #009949;
 
+   font-weight: 700;
+
    background-color: var(--energy-good);
    color: var(--text-white-color);
 
    width: 40px;
-   height: 18px;
+   height: 1.5rem;
    border-radius: 1px;
+
+   padding-left: 1rem;
 }
 
 .energy-class-arrow {
+}
+
+.choose-button {
+   font-family: "SamsungOne";
+   letter-spacing: 0.15rem;
+
+   color: var(--text-white-color);
+
+   width: 150px;
+   height: 3rem;
+   border-radius: 2rem;
+   padding: auto;
+
+   align-self: center;
 }

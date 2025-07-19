@@ -12,7 +12,15 @@
             "Wyświetlacz elektroniczny"
          ],
          "energyClass": "A",
-         "price": 3199,
+         "price": {
+            "pln": {
+               "value": 3199,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 60
+            }
+         },
          "picture": "/src/assets/wash1.png"
       },
       {
@@ -26,8 +34,16 @@
             "Silnik inwertowy",
             "Wyświetlacz elektroniczny"
          ],
-         "energyClass": "A",
-         "price": 3199,
+         "energyClass": "B",
+         "price": {
+            "pln": {
+               "value": 3199.99,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 60
+            }
+         },
          "picture": "/src/assets/wash2.png"
       },
       {
@@ -41,8 +57,16 @@
             "Silnik inwertowy",
             "Wyświetlacz elektroniczny"
          ],
-         "energyClass": "A",
-         "price": 3199,
+         "energyClass": "C",
+         "price": {
+            "pln": {
+               "value": 3199,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 60
+            }
+         },
          "picture": "/src/assets/wash2.png"
       },
       {
@@ -56,8 +80,16 @@
             "Silnik inwertowy",
             "Wyświetlacz elektroniczny"
          ],
-         "energyClass": "A",
-         "price": 3199,
+         "energyClass": "D",
+         "price": {
+            "pln": {
+               "value": 3199,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 0
+            }
+         },
          "picture": "/src/assets/wash1.png"
       },
       {
@@ -71,8 +103,16 @@
             "Silnik inwertowy",
             "Wyświetlacz elektroniczny"
          ],
-         "energyClass": "A",
-         "price": 3199,
+         "energyClass": "E",
+         "price": {
+            "pln": {
+               "value": 3199,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 0
+            }
+         },
          "picture": "/src/assets/wash2.png"
       },
       {
@@ -86,8 +126,16 @@
             "Silnik inwertowy",
             "Wyświetlacz elektroniczny"
          ],
-         "energyClass": "A",
-         "price": 3199,
+         "energyClass": "F",
+         "price": {
+            "pln": {
+               "value": 3199,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 0
+            }
+         },
          "picture": "/src/assets/wash2.png"
       }
    ]

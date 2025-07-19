@@ -1,2 +1,4 @@
 import EnergyClassIndicator from "./EnergyClassIndicator";
-export { EnergyClassIndicator };
+import ChooseButton from "./ChooseButton";
+
+export { EnergyClassIndicator, ChooseButton };

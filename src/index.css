@@ -7,14 +7,12 @@
    --text-white-color: #ffffff;
 
    font-family: "SamsungOne", sans-serif;
+   font-size: 12px;
    line-height: 1.5;
-   font-weight: 400;
 
-   color-scheme: light dark;
    color: var(--text-default-color);
    background-color: var(--main-bg-color);
 
-   font-synthesis: none;
    text-rendering: optimizeLegibility;
    -webkit-font-smoothing: antialiased;
    -moz-osx-font-smoothing: grayscale;
@@ -28,4 +26,12 @@
 @font-face {
    font-family: "SamsungOne Bold";
    src: url(./assets/fonts/SamsungOne-700.ttf) format("truetype");
+}
+
+html {
+   min-width: 350px;
+}
+button {
+   border: none;
+   cursor: pointer;
 }
