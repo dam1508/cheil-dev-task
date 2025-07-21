@@ -5,6 +5,7 @@
    --text-dark-color: #555555;
    --text-bright-color: #767676;
    --text-white-color: #ffffff;
+   --option-hover-color: #f3f3f3;
 
    font-family: "SamsungOne", sans-serif;
    font-size: 12px;
@@ -31,7 +32,21 @@
 html {
    min-width: 350px;
 }
+
 button {
    border: none;
    cursor: pointer;
+}
+
+select {
+   font-family: "SamsungOne";
+   border: none;
+}
+
+select option:hover {
+   background-color: var(--option-hover-color);
+}
+
+input {
+   border: none;
 }

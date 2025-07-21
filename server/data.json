@@ -26,7 +26,7 @@
       {
          "id": "2",
          "name": "WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała",
-         "capacity": { "kg": 9 },
+         "capacity": { "kg": 10.5 },
          "dimensions": "55 x 60 x 85 cm",
          "functions": [
             "Drzwi AddWash™",
@@ -95,7 +95,7 @@
       {
          "id": "5",
          "name": "WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała",
-         "capacity": { "kg": 9 },
+         "capacity": { "kg": 10.5 },
          "dimensions": "55 x 60 x 85 cm",
          "functions": [
             "Drzwi AddWash™",
@@ -118,7 +118,7 @@
       {
          "id": "6",
          "name": "WW90T654DLH, Pralka EcoBubble™, 8 kg, biała",
-         "capacity": { "kg": 9 },
+         "capacity": { "kg": 8 },
          "dimensions": "55 x 60 x 85 cm",
          "functions": [
             "Drzwi AddWash™",

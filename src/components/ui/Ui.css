@@ -29,3 +29,15 @@
 
    align-self: center;
 }
+
+.dropdown {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 0.1rem;
+}
+
+.dropdown .label {
+   font-size: 1.5rem;
+   font-weight: 700;
+}

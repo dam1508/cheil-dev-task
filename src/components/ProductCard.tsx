@@ -2,6 +2,7 @@ import { productDescriptions } from "./helpers/constants";
 import "./Components.css";
 import { ChooseButton, EnergyClassIndicator } from "./ui";
 import type { Price, ProductType } from "./helpers/types";
+import { useProductContext } from "../pages/Products/Products.helpers";
 
 const InfoEntry = ({
    description,
@@ -65,6 +66,8 @@ const PriceTag = ({ price }: { price: Price }) => {
 };
 
 const ProductCard = ({ product }: { product: ProductType }) => {
+   const { currentUnits } = useProductContext();
+
    const {
       picture,
       name,
@@ -93,7 +96,7 @@ const ProductCard = ({ product }: { product: ProductType }) => {
          <div className="product-info-container">
             <InfoEntry
                description={capacityDescription}
-               value={capacity.kg.toString()}
+               value={capacity[currentUnits.weight].toString()}
             />
             <InfoEntry
                description={dimensionsDescription}
@@ -108,7 +111,7 @@ const ProductCard = ({ product }: { product: ProductType }) => {
             description={energyClassDescription}
             value={energyClass}
          />
-         <PriceTag price={price.pln} />
+         <PriceTag price={price[currentUnits.currency]} />
          <ChooseButton />
       </div>
    );

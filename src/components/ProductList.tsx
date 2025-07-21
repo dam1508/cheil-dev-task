@@ -1,10 +1,12 @@
-import type { ProductType } from "./helpers/types";
+import { useProductContext } from "../pages/Products/Products.helpers";
 import ProductCard from "./ProductCard";
 
-const ProductList = ({ products }: { products: ProductType[] }) => {
+const ProductList = () => {
+   const { filteredProducts } = useProductContext();
+
    return (
       <div className="product-list">
-         {products.map(product => (
+         {filteredProducts.map(product => (
             <ProductCard
                key={product.id}
                product={product}

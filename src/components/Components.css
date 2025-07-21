@@ -84,3 +84,28 @@
 
    margin-top: 1rem;
 }
+
+.product-filters {
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1rem;
+}
+
+.searchbar {
+   width: 250px;
+   height: 3rem;
+   margin-bottom: 3rem;
+
+   align-self: center;
+}
+
+.filters-dropdowns {
+   display: flex;
+   gap: 1rem;
+}
+
+.product-filters .filter {
+   background-color: var(--card-bg-color);
+   width: 250px;
+   height: 3rem;
+}
