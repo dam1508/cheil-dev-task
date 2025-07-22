@@ -66,9 +66,11 @@ const PriceTag = ({ price }: { price: Price }) => {
 };
 
 const ProductCard = ({ product }: { product: ProductType }) => {
-   const { currentUnits } = useProductContext();
+   const { currentUnits, chosenProductId, setChosenProductId } =
+      useProductContext();
 
    const {
+      id,
       picture,
       name,
       capacity,
@@ -112,7 +114,15 @@ const ProductCard = ({ product }: { product: ProductType }) => {
             value={energyClass}
          />
          <PriceTag price={price[currentUnits.currency]} />
-         <ChooseButton />
+         <ChooseButton
+            isChosen={id === chosenProductId}
+            onClick={() => {
+               setChosenProductId(previousValue => {
+                  if (id === previousValue) return undefined;
+                  return id;
+               });
+            }}
+         />
       </div>
    );
 };

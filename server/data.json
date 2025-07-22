@@ -8,8 +8,7 @@
          "functions": [
             "Drzwi AddWash™",
             "Panel AI Control",
-            "Silnik inwertowy",
-            "Wyświetlacz elektroniczny"
+            "Silnik inwerterowy"
          ],
          "energyClass": "A",
          "price": {
@@ -30,14 +29,13 @@
          "dimensions": "55 x 60 x 85 cm",
          "functions": [
             "Drzwi AddWash™",
-            "Panel AI Control",
-            "Silnik inwertowy",
+            "Silnik inwerterowy",
             "Wyświetlacz elektroniczny"
          ],
          "energyClass": "B",
          "price": {
             "pln": {
-               "value": 3199.99,
+               "value": 2199.99,
                "symbol": "zł",
                "dateFrom": "15.09.2022",
                "dateTo": "21.09.2022",
@@ -52,9 +50,8 @@
          "capacity": { "kg": 9 },
          "dimensions": "55 x 60 x 85 cm",
          "functions": [
-            "Drzwi AddWash™",
             "Panel AI Control",
-            "Silnik inwertowy",
+            "Silnik inwerterowy",
             "Wyświetlacz elektroniczny"
          ],
          "energyClass": "C",
@@ -77,7 +74,7 @@
          "functions": [
             "Drzwi AddWash™",
             "Panel AI Control",
-            "Silnik inwertowy",
+            "Silnik inwerterowy",
             "Wyświetlacz elektroniczny"
          ],
          "energyClass": "D",
@@ -100,8 +97,7 @@
          "functions": [
             "Drzwi AddWash™",
             "Panel AI Control",
-            "Silnik inwertowy",
-            "Wyświetlacz elektroniczny"
+            "Silnik inwerterowy"
          ],
          "energyClass": "E",
          "price": {
@@ -117,13 +113,151 @@
       },
       {
          "id": "6",
+         "name": "WW90T784DLH, Pralka EcoBubble™, 8 kg, biała",
+         "capacity": { "kg": 8 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwerterowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "F",
+         "price": {
+            "pln": {
+               "value": 4199,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 0
+            }
+         },
+         "picture": "/src/assets/wash2.png"
+      },
+      {
+         "id": "7",
+         "name": "WW90T754ABT, Pralka QuickDrive™, 9 kg, biała",
+         "capacity": { "kg": 9 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwerterowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "A",
+         "price": {
+            "pln": {
+               "value": 2799,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 40
+            }
+         },
+         "picture": "/src/assets/wash1.png"
+      },
+      {
+         "id": "8",
+         "name": "WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała",
+         "capacity": { "kg": 10.5 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwerterowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "B",
+         "price": {
+            "pln": {
+               "value": 3199.99,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 60
+            }
+         },
+         "picture": "/src/assets/wash2.png"
+      },
+      {
+         "id": "9",
+         "name": "WW90T654DLH, Pralka EcoBubble™, 9 kg, biała",
+         "capacity": { "kg": 9 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwerterowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "C",
+         "price": {
+            "pln": {
+               "value": 3199,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 60
+            }
+         },
+         "picture": "/src/assets/wash2.png"
+      },
+      {
+         "id": "10",
+         "name": "WW90T754ABT, Pralka QuickDrive™, 9 kg, biała",
+         "capacity": { "kg": 9 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwerterowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "D",
+         "price": {
+            "pln": {
+               "value": 3199,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 0
+            }
+         },
+         "picture": "/src/assets/wash1.png"
+      },
+      {
+         "id": "11",
+         "name": "WW10T654DLH, Pralka EcoBubble™, 10,5 kg, biała",
+         "capacity": { "kg": 10.5 },
+         "dimensions": "55 x 60 x 85 cm",
+         "functions": [
+            "Drzwi AddWash™",
+            "Panel AI Control",
+            "Silnik inwerterowy",
+            "Wyświetlacz elektroniczny"
+         ],
+         "energyClass": "E",
+         "price": {
+            "pln": {
+               "value": 3199,
+               "symbol": "zł",
+               "dateFrom": "15.09.2022",
+               "dateTo": "21.09.2022",
+               "rates": 0
+            }
+         },
+         "picture": "/src/assets/wash2.png"
+      },
+      {
+         "id": "12",
          "name": "WW90T654DLH, Pralka EcoBubble™, 8 kg, biała",
          "capacity": { "kg": 8 },
          "dimensions": "55 x 60 x 85 cm",
          "functions": [
             "Drzwi AddWash™",
             "Panel AI Control",
-            "Silnik inwertowy",
+            "Silnik inwerterowy",
             "Wyświetlacz elektroniczny"
          ],
          "energyClass": "F",

@@ -16,7 +16,7 @@ export const colors = {
 export const productFilterValues = {
    sort: [
       {
-         value: "all",
+         value: "default",
          description: "Wszystkie",
       },
       {
@@ -30,29 +30,29 @@ export const productFilterValues = {
    ],
    functions: [
       {
-         value: "all",
+         value: "",
          description: "Wszystkie",
       },
       {
-         value: "addWash",
+         value: "Drzwi AddWash",
          description: "Drzwi AddWash",
       },
       {
-         value: "aiPanel",
+         value: "Panel AI Control",
          description: "Panel AI Control",
       },
       {
-         value: "invertEngine",
+         value: "Silnik Inwerterowy",
          description: "Silnik Inwerterowy",
       },
       {
-         value: "electronicDisplay",
+         value: "Wyświetlacz elektroniczny",
          description: "Wyświetlacz elektroniczny",
       },
    ],
    energyClass: [
       {
-         value: "all",
+         value: "",
          description: "Wszystkie",
       },
       {
@@ -74,7 +74,7 @@ export const productFilterValues = {
    ],
    capacity: [
       {
-         value: "all",
+         value: "",
          description: "Wszystkie",
       },
       {
