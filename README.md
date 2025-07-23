@@ -1,69 +1,24 @@
-# React + TypeScript + Vite
+# Task summary
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-  **Thursday, 17.07.2025 (around 4h):** created repo, cleaned up some unnecessary stuff, prepared folder structure and added a little boilerplate code, prepared mock data and made it to display in a very simple way.
 
-Currently, two official plugins are available:
+-  **Friday, 18.07.2025 (around 5h):** added samsung font, created some ui elements and made products display on cards in similar way to the intended design
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-  **Saturday and Sunday, 19-20.07.2025 (around 8h):** finished styling the product card, made the page more responsive
 
-## Expanding the ESLint configuration
+-  **Monday, 21.07.2025 (around 4h):** created components needed in filter section, placed them in right places and created filter mechanism (without connecting it to components)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+-  **Tuesday, 22.07.2025 (around 3h):** connected filter components to filtering system, added sorting mechanism, implemented simple selection system of one product from the list, made the list display properly on different devices
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+-  **Wednesday, 23.07.2025 (around 3h):** implemented search mechanism, finished adding all elements, and made the whole page responsive and accessible on different devices
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## Running the app
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+To run the app simply clone it and run this two commands:
+
+```
+npm run build
+npm run dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+and open the app in the browser on the localhost provided in the console
