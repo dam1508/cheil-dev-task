@@ -10,3 +10,17 @@ export const useProductContext = () => {
 
    return context;
 };
+
+export const getAllValues = (product?: object) => {
+   let values = "";
+   if (product !== undefined)
+      values = Object.values(product)
+         .map(value => {
+            if (typeof value === "object") return getAllValues(value);
+            if (Array.isArray(value)) return value.join(" ");
+            return value;
+         })
+         .join(" ");
+
+   return values;
+};

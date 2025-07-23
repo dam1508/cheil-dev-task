@@ -1,6 +1,6 @@
 import { ProductFilters, ProductList } from "../../components";
 import "./Products.css";
-import { ProductsContext } from "./Products.helpers";
+import { getAllValues, ProductsContext } from "./Products.helpers";
 import { use, useEffect, useState } from "react";
 import {
    type ProductContextType,
@@ -46,6 +46,14 @@ const ProductsContextProvider = ({
                   let display = true;
                   Object.keys(filters).map(key => {
                      switch (key) {
+                        case "query":
+                           if (
+                              !getAllValues(product)
+                                 .toLowerCase()
+                                 .includes(filters[key].toLowerCase())
+                           )
+                              display = false;
+                           break;
                         case "functions":
                            if (
                               !product[key].find(func =>
@@ -98,7 +106,6 @@ const ProductsContextProvider = ({
    );
 
    const changeFilter = (filter: ProductFiltersKeys, value: string) => {
-      console.log(filters);
       setFilters({
          ...filters,
          [filter]: value,
@@ -123,6 +130,7 @@ const Products = () => {
    return (
       <ProductsContextProvider>
          <div className="products">
+            <h1 className="title">Wybierz urządzenie</h1>
             <ProductFilters />
             <ProductList />
          </div>

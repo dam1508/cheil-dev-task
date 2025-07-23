@@ -1,26 +1,34 @@
 .product-list {
-   --product-content-width: 300px;
-   --product-card-padding: 4rem;
-   --product-card-width: calc(
-      var(--product-content-width) + var(--product-card-padding)
-   );
-   --grid-gap: 1.33rem;
-
-   width: calc((var(--product-card-width)) * 3 + var(--grid-gap) * 2);
+   width: var(--product-list-width);
    display: grid;
    grid-template-columns: repeat(auto-fit, var(--product-card-width));
    gap: 1.33rem;
 }
 
+.product-filters {
+   width: var(--product-list-width);
+   padding: 0 1rem;
+   display: flex;
+   flex-direction: column;
+   margin-bottom: 1rem;
+   gap: 1rem;
+}
+
 @media (max-width: 1200px) {
    .product-list {
-      width: calc((var(--product-card-width)) * 2 + var(--grid-gap));
+      width: var(--product-list-width-medium);
+   }
+   .product-filters {
+      width: var(--product-list-width-medium);
    }
 }
 
 @media (max-width: 800px) {
    .product-list {
-      width: calc(var(--product-card-width));
+      width: var(--product-list-width-small);
+   }
+   .product-filters {
+      width: var(--product-list-width-small);
    }
 }
 
@@ -104,13 +112,6 @@
    margin-top: 1rem;
 }
 
-.product-filters {
-   display: flex;
-   flex-direction: column;
-   margin-bottom: 1rem;
-   gap: 1rem;
-}
-
 .searchbar {
    width: 250px;
    height: 3rem;
@@ -121,15 +122,25 @@
 
 .filters-dropdowns {
    display: flex;
+   flex-wrap: wrap;
    gap: 1rem;
 }
 
-.product-filters .filter {
-   background-color: var(--card-bg-color);
-   width: 250px;
-   height: 3rem;
+.filters-dropdowns .filter {
+   width: 100%;
 }
 
 .quantity {
    align-self: start;
+}
+
+.show-more {
+   font-family: "SamsungOne";
+   font-size: 1.5rem;
+   font-weight: 700;
+
+   background: none;
+   color: var(--text-light-blue);
+
+   margin-top: 2rem;
 }

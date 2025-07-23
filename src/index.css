@@ -4,6 +4,7 @@
    --text-default-color: #000000;
    --text-dark-color: #555555;
    --text-bright-color: #767676;
+   --text-light-blue: #007aff;
    --text-white-color: #ffffff;
    --option-hover-color: #f3f3f3;
 
@@ -27,6 +28,10 @@
 @font-face {
    font-family: "SamsungOne Bold";
    src: url(./assets/fonts/SamsungOne-700.ttf) format("truetype");
+}
+
+body {
+   margin: 0;
 }
 
 html {

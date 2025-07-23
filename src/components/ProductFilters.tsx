@@ -3,7 +3,6 @@ import { productFilterValues } from "./helpers/constants";
 import { Dropdown, Searchbar } from "./ui";
 
 const ProductFilters = () => {
-   const filterPlaceholder = "all";
    const { sort, functions, energyClass, capacity } = productFilterValues;
    const { filters, filteredProducts, changeFilter } = useProductContext();
 
@@ -13,6 +12,10 @@ const ProductFilters = () => {
             className="searchbar"
             placeholder="Search..."
             name="query"
+            value={filters.query}
+            onChange={event => {
+               changeFilter("query", event.target.value);
+            }}
          />
          <div className="filters-dropdowns">
             <Dropdown
@@ -20,7 +23,7 @@ const ProductFilters = () => {
                description="Sortuj po:"
                name="sort"
                options={sort}
-               defaultValue={filterPlaceholder}
+               value={filters.sort}
                onChange={event => {
                   changeFilter("sort", event.target.value);
                }}

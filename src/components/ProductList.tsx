@@ -27,7 +27,10 @@ const ProductList = () => {
             ))}
          </div>
          {filteredProducts.length > numberOfProductsShown ? (
-            <button onClick={() => setNumberOfProductsShown(prev => prev + 6)}>
+            <button
+               className="show-more"
+               onClick={() => setNumberOfProductsShown(prev => prev + 6)}
+            >
                Pokaż więcej
             </button>
          ) : null}
