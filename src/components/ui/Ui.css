@@ -1,0 +1,64 @@
+.energy-class {
+   --energy-good: #009949;
+
+   font-weight: 700;
+
+   background-color: var(--energy-good);
+   color: var(--text-white-color);
+
+   width: 3rem;
+   height: 1.5rem;
+   border-radius: 1px 0 0 1px;
+
+   padding-left: 1rem;
+   position: relative;
+}
+
+.energy-class::after {
+   content: "";
+   width: 0;
+   height: 0;
+   border-left: 0.5rem solid var(--energy-good);
+   border-top: 0.75rem solid transparent;
+   border-bottom: 0.75rem solid transparent;
+   border-radius: 1px;
+
+   position: absolute;
+   right: -0.5rem;
+}
+
+.choose-button {
+   font-family: "SamsungOne";
+   letter-spacing: 0.15rem;
+
+   color: var(--text-white-color);
+
+   width: 150px;
+   height: 3rem;
+   border-radius: 2rem;
+   padding: auto;
+
+   align-self: center;
+   margin-top: auto;
+}
+
+.dropdown {
+   display: flex;
+   flex-direction: column;
+   align-items: start;
+   gap: 0.1rem;
+   flex-grow: 1;
+
+   min-width: 250px;
+   max-width: 350px;
+}
+
+.dropdown .label {
+   font-size: 1.5rem;
+   font-weight: 700;
+}
+
+select {
+   background-color: var(--card-bg-color);
+   height: 3rem;
+}

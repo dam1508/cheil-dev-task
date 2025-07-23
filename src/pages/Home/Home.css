@@ -1,0 +1,5 @@
+.home {
+   padding: 0 max(5%, auto);
+   display: flex;
+   justify-content: center;
+}
